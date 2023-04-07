@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0890ec58-a6f6-465f-b2c0-0cc53f4bbc23" name="Changes" comment="feat: persisting and listing data">
+    <list default="true" id="0890ec58-a6f6-465f-b2c0-0cc53f4bbc23" name="Changes" comment="feat: list customers">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/gabrielvelezmoro/VendasApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gabrielvelezmoro/VendasApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gabrielvelezmoro/domain/repositorio/Clientes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gabrielvelezmoro/domain/repositorio/Clientes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679074948861</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="feat: list customers">
+      <created>1680873621291</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1680873621291</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -213,6 +219,7 @@
     <MESSAGE value="feat: create domain classes" />
     <MESSAGE value="feat: persisting data" />
     <MESSAGE value="feat: persisting and listing data" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: persisting and listing data" />
+    <MESSAGE value="feat: list customers" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: list customers" />
   </component>
 </project>
