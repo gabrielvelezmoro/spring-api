@@ -4,18 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0890ec58-a6f6-465f-b2c0-0cc53f4bbc23" name="Changes" comment="chore: config application.properties">
-      <change afterPath="$PROJECT_DIR$/src/main/java/gabrielvelezmoro/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gabrielvelezmoro/AnimalConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gabrielvelezmoro/Cachorro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gabrielvelezmoro/Development.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gabrielvelezmoro/Gato.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application-development.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application-production.properties" afterDir="false" />
+    <list default="true" id="0890ec58-a6f6-465f-b2c0-0cc53f4bbc23" name="Changes" comment="feat: persisting and listing data">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gabrielvelezmoro/MinhaConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gabrielvelezmoro/MinhaConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/gabrielvelezmoro/VendasApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gabrielvelezmoro/VendasApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gabrielvelezmoro/domain/repositorio/Clientes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gabrielvelezmoro/domain/repositorio/Clientes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,13 +18,19 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="AnnotationType" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -122,7 +120,63 @@
       <option name="project" value="LOCAL" />
       <updated>1678802202997</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="understanding anotations better">
+      <created>1678889849736</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678889849736</updated>
+    </task>
+    <task id="LOCAL-00005" summary="refactor: clean project">
+      <created>1678967179558</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678967179558</updated>
+    </task>
+    <task id="LOCAL-00006" summary="refactor: clean project">
+      <created>1678967338345</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678967338345</updated>
+    </task>
+    <task id="LOCAL-00007" summary="refactor: clean project">
+      <created>1678967382170</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1678967382170</updated>
+    </task>
+    <task id="LOCAL-00008" summary="chore: config h2 db">
+      <created>1678987444924</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1678987444924</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat: create tables">
+      <created>1679060666577</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1679060666577</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feat: create domain classes">
+      <created>1679061298127</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1679061298127</updated>
+    </task>
+    <task id="LOCAL-00011" summary="feat: persisting and listing data">
+      <created>1679074948861</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1679074948861</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -152,6 +206,13 @@
     <MESSAGE value="hello world" />
     <MESSAGE value="chore: setting spring configuration class" />
     <MESSAGE value="chore: config application.properties" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: config application.properties" />
+    <MESSAGE value="understanding anotations better" />
+    <MESSAGE value="refactor: clean project" />
+    <MESSAGE value="chore: config h2 db" />
+    <MESSAGE value="feat: create tables" />
+    <MESSAGE value="feat: create domain classes" />
+    <MESSAGE value="feat: persisting data" />
+    <MESSAGE value="feat: persisting and listing data" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: persisting and listing data" />
   </component>
 </project>
