@@ -1,17 +1,25 @@
 package gabrielvelezmoro.domain.entity;
 
+import javax.persistence.*;
+
+@Entity(name = "CLIENTE" )
 public class Cliente {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    @Column (name = "id")
+    private Integer id;
+
+    @Column(name = "nome", length = 100)
+    private String nome;
+
     public Cliente() {
 
     }
 
-    public Cliente(String nome, Integer id) {
+    public Cliente(String nome) {
         this.nome = nome;
-        this.id = id;
     }
-
-    private Integer id;
-    private String nome;
 
     public Integer getId() {
         return id;
