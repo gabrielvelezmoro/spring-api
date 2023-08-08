@@ -25,28 +25,8 @@ public class VendasApplication {
             clientes.save(new Cliente("Outro Cliente"));
 
 
-            List<Cliente> todosClientes = clientes.findAll();
-            todosClientes.forEach(out::println);
-
-           out.println("Atualizado Clientes");
-           todosClientes.forEach(c -> {
-               c.setNome( c.getNome() + " atualizado");
-               clientes.save(c);
-           });
-
-          out.println("Buscando clientes");
-          clientes.findByNomeLike("Cli").forEach(out::println);
-
-            out.println("Deletando clientes");
-            clientes.findAll().forEach(c -> {
-                clientes.delete(c);
-            });
-
-            todosClientes = clientes.findAll();
-            if (todosClientes.isEmpty()){
-                out.println("Nenhum cliente encontrado");
-            }
-            todosClientes.forEach(out::println);
+            boolean exist  = clientes.existsByNome("Gabriel");
+            out.println("Exists : " + exist);
         };
     }
 
