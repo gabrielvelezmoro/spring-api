@@ -25,8 +25,8 @@ public class VendasApplication {
             clientes.save(new Cliente("Outro Cliente"));
 
 
-            boolean exist  = clientes.existsByNome("Gabriel");
-            out.println("Exists : " + exist);
+            List<Cliente> result  = clientes.encontrarPorNome("Gabriel");
+            result.forEach(out::println);
         };
     }
 
