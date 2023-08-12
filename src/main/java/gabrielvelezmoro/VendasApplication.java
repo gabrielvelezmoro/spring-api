@@ -24,9 +24,10 @@ public class VendasApplication {
             clientes.save(new Cliente( "Gabriel"));
             clientes.save(new Cliente("Outro Cliente"));
 
-
             List<Cliente> result  = clientes.encontrarPorNome("Gabriel");
+
             result.forEach(out::println);
+            clientes.deleteByNome("Gabriel");
         };
     }
 

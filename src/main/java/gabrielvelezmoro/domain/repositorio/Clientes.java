@@ -3,6 +3,7 @@ package gabrielvelezmoro.domain.repositorio;
 import gabrielvelezmoro.domain.entity.Cliente;
 
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 
@@ -10,8 +11,11 @@ import java.util.List;
 
 
 public interface Clientes extends JpaRepository<Cliente, Integer> {
-    @Query(value = " select c from CLIENTE c where c.nome like :nome ")
+    @Query(value = "  select c from CLIENTE c where c.nome like :nome")
     List<Cliente> encontrarPorNome( @Param("nome") String nome );
 
+    @Query("delete from CLIENTE where c.nome = :nome")
+    @Modifying
+    void deleteByNome(String nome);
     boolean existsByNome(String nome);
 }
