@@ -12,7 +12,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
-import java.util.List;
 
 import static java.lang.System.*;
 
@@ -38,14 +37,10 @@ public class VendasApplication {
 
             pedidos.save(p);
 
-            Cliente cliente = clientes.findClienteFetchPedidos(gabriel.getId());
 
-            out.println(cliente);
-            out.println(cliente.getPedidos());
+       pedidos.findByCliente(gabriel).forEach(out::println);
 
-            List<Cliente> result  = clientes.encontrarPorNome("Gabriel");
 
-            result.forEach(out::println);
         };
     }
 
