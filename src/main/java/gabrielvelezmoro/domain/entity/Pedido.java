@@ -6,7 +6,7 @@ import java.time.LocalDate;
 import java.util.List;
 
 @Entity
-@Table(name="pedido")
+@Table(name="PEDIDO")
 public class Pedido {
 
     @Id
@@ -20,7 +20,7 @@ public class Pedido {
     @Column(name="DATA_PEDIDO")
     private LocalDate dataPedidio;
 
-    @Column(name="TOTAL", length = 20, precision = 2)
+    @Column(name="TOTAL", scale = 2, precision = 20)
     private BigDecimal  total;
 
 
@@ -65,5 +65,14 @@ public class Pedido {
 
     public void setTotal(BigDecimal total) {
         this.total = total;
+    }
+
+    @Override
+    public String toString() {
+        return "Pedido{" +
+                "id=" + id +
+                ", dataPedidio=" + dataPedidio +
+                ", total=" + total +
+                '}';
     }
 }

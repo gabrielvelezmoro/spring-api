@@ -1,4 +1,4 @@
-package gabrielvelezmoro.domain.repositorio;
+package gabrielvelezmoro.domain.repository;
 
 import gabrielvelezmoro.domain.entity.Cliente;
 
@@ -14,8 +14,13 @@ public interface Clientes extends JpaRepository<Cliente, Integer> {
     @Query(value = "  select c from CLIENTE c where c.nome like :nome")
     List<Cliente> encontrarPorNome( @Param("nome") String nome );
 
-    @Query("delete from CLIENTE where c.nome = :nome")
+    @Query("delete from CLIENTE c where c.nome = :nome")
     @Modifying
     void deleteByNome(String nome);
     boolean existsByNome(String nome);
+
+    @Query(" select c from CLIENTE c left join fetch c.pedidos where c.id = :id")
+    Cliente findClienteFetchPedidos( @Param("id") Integer id);
+
+
 }
