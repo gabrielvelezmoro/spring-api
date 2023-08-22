@@ -5,6 +5,14 @@ import java.util.Set;
 
 @Entity(name = "CLIENTE" )
 public class Cliente {
+    public Cliente() {
+    }
+
+    public Cliente(Integer id, String nome) {
+        this.nome = nome;
+        this.id = id;
+    }
+
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -17,9 +25,6 @@ public class Cliente {
     @OneToMany(mappedBy = "cliente", fetch = FetchType.LAZY)
     private Set<Pedido> pedidos;
 
-    public Cliente() {
-
-    }
 
     public Set<Pedido> getPedidos() {
         return pedidos;
