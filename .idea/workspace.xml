@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0890ec58-a6f6-465f-b2c0-0cc53f4bbc23" name="Changes" comment="feat: find pedido by cliente">
-      <change afterPath="$PROJECT_DIR$/src/main/java/gabrielvelezmoro/domain/api/controller/ClienteController.java" afterDir="false" />
+    <list default="true" id="0890ec58-a6f6-465f-b2c0-0cc53f4bbc23" name="Changes" comment="feat: create cliente">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gabrielvelezmoro/VendasApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gabrielvelezmoro/VendasApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/gabrielvelezmoro/domain/entity/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gabrielvelezmoro/domain/entity/Cliente.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -275,7 +273,21 @@
       <option name="project" value="LOCAL" />
       <updated>1692471625901</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="feat: find cliente that id is equal 1">
+      <created>1692738379230</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1692738379230</updated>
+    </task>
+    <task id="LOCAL-00023" summary="feat: create cliente">
+      <created>1692816488664</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1692816488664</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -321,7 +333,9 @@
     <MESSAGE value="refactor: map entities" />
     <MESSAGE value="fix: pedidos creation" />
     <MESSAGE value="feat: find pedido by cliente" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: find pedido by cliente" />
+    <MESSAGE value="feat: find cliente that id is equal 1" />
+    <MESSAGE value="feat: create cliente" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: create cliente" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
