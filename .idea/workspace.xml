@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0890ec58-a6f6-465f-b2c0-0cc53f4bbc23" name="Changes" comment="feat: update e remove cliente">
+    <list default="true" id="0890ec58-a6f6-465f-b2c0-0cc53f4bbc23" name="Changes" comment="feat: find cliente by field">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/gabrielvelezmoro/domain/api/controller/ClienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gabrielvelezmoro/domain/api/controller/ClienteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gabrielvelezmoro/domain/entity/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gabrielvelezmoro/domain/entity/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/meu_schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/meu_schema.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +54,7 @@
       <map>
         <entry key="com.haulmont.jpb.jpaInspector" value="false" />
         <entry key="com.haulmont.jpb.jpaPalette" value="false" />
-        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
       </map>
     </option>
   </component>
@@ -292,7 +290,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692816488664</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="feat: find cliente by field">
+      <created>1693150337315</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1693150337316</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -340,7 +345,8 @@
     <MESSAGE value="feat: find pedido by cliente" />
     <MESSAGE value="feat: find cliente that id is equal 1" />
     <MESSAGE value="feat: create cliente" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: create cliente" />
+    <MESSAGE value="feat: find cliente by field" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: find cliente by field" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
