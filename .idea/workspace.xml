@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0890ec58-a6f6-465f-b2c0-0cc53f4bbc23" name="Changes" comment="feat: find cliente by field">
+    <list default="true" id="0890ec58-a6f6-465f-b2c0-0cc53f4bbc23" name="Changes" comment="refactor: entire controller to more simple and modern code style using annotations">
+      <change afterPath="$PROJECT_DIR$/src/main/java/gabrielvelezmoro/domain/api/controller/ProdutoController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gabrielvelezmoro/domain/api/controller/ClienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gabrielvelezmoro/domain/api/controller/ClienteController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +81,9 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\gabri\IdeaProjects\vendas\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="gabrielvelezmoro.domain.api.controller" />
     </key>
   </component>
   <component name="RunManager" selected="Application.VendasApplication">
@@ -297,12 +300,24 @@
       <option name="project" value="LOCAL" />
       <updated>1693150337316</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="refactor: entire controller to more simple and modern code style using annotations">
+      <created>1702648996469</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1702648996469</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="8f04abd1-b3a3-4463-a3e8-7e2ba23e3a35">
+          <value>
+            <State />
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State>
@@ -320,6 +335,11 @@
             </State>
           </value>
         </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="8f04abd1-b3a3-4463-a3e8-7e2ba23e3a35" value="TOOL_WINDOW" />
       </map>
     </option>
   </component>
@@ -346,7 +366,8 @@
     <MESSAGE value="feat: find cliente that id is equal 1" />
     <MESSAGE value="feat: create cliente" />
     <MESSAGE value="feat: find cliente by field" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: find cliente by field" />
+    <MESSAGE value="refactor: entire controller to more simple and modern code style using annotations" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: entire controller to more simple and modern code style using annotations" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
