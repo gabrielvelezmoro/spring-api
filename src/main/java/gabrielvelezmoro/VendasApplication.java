@@ -1,11 +1,6 @@
 package gabrielvelezmoro;
-import gabrielvelezmoro.domain.entity.Cliente;
-import gabrielvelezmoro.domain.repository.Clientes;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.Bean;
 import org.springframework.web.bind.annotation.RestController;
 
 
@@ -14,13 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class VendasApplication {
 
-    @Bean
-    public CommandLineRunner commandLineRunner(@Autowired Clientes clientes) {
-        return args -> {
-            Cliente c = new Cliente(1,"fulano");
-            clientes.save(c);
-        };
-    }
     public static void main(String[] args) {
         SpringApplication.run(VendasApplication.class, args);
     }

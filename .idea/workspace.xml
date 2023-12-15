@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0890ec58-a6f6-465f-b2c0-0cc53f4bbc23" name="Changes" comment="feat: find pedido by cliente">
-      <change afterPath="$PROJECT_DIR$/src/main/java/gabrielvelezmoro/domain/api/controller/ClienteController.java" afterDir="false" />
+    <list default="true" id="0890ec58-a6f6-465f-b2c0-0cc53f4bbc23" name="Changes" comment="refactor: entire controller to more simple and modern code style using annotations">
+      <change afterPath="$PROJECT_DIR$/src/main/java/gabrielvelezmoro/domain/api/controller/ProdutoController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gabrielvelezmoro/VendasApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gabrielvelezmoro/VendasApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gabrielvelezmoro/domain/entity/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gabrielvelezmoro/domain/entity/Cliente.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +82,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\gabri\IdeaProjects\vendas\src\main\resources" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="gabrielvelezmoro.domain.api.controller" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.VendasApplication">
     <configuration name="VendasApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -116,6 +117,9 @@
       <list>
         <item itemvalue="Application.VendasApplication" />
         <item itemvalue="Application.io.github.gabrielvelezmoro.VendasApplication" />
+        <item itemvalue="Application.VendasApplication" />
+        <item itemvalue="Application.io.github.gabrielvelezmoro.VendasApplication" />
+        <item itemvalue="Application.VendasApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -275,12 +279,45 @@
       <option name="project" value="LOCAL" />
       <updated>1692471625901</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="feat: find cliente that id is equal 1">
+      <created>1692738379230</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1692738379230</updated>
+    </task>
+    <task id="LOCAL-00023" summary="feat: create cliente">
+      <created>1692816488664</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1692816488664</updated>
+    </task>
+    <task id="LOCAL-00024" summary="feat: find cliente by field">
+      <created>1693150337315</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1693150337316</updated>
+    </task>
+    <task id="LOCAL-00025" summary="refactor: entire controller to more simple and modern code style using annotations">
+      <created>1702648996469</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1702648996469</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="8f04abd1-b3a3-4463-a3e8-7e2ba23e3a35">
+          <value>
+            <State />
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State>
@@ -298,6 +335,11 @@
             </State>
           </value>
         </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="8f04abd1-b3a3-4463-a3e8-7e2ba23e3a35" value="TOOL_WINDOW" />
       </map>
     </option>
   </component>
@@ -321,7 +363,11 @@
     <MESSAGE value="refactor: map entities" />
     <MESSAGE value="fix: pedidos creation" />
     <MESSAGE value="feat: find pedido by cliente" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: find pedido by cliente" />
+    <MESSAGE value="feat: find cliente that id is equal 1" />
+    <MESSAGE value="feat: create cliente" />
+    <MESSAGE value="feat: find cliente by field" />
+    <MESSAGE value="refactor: entire controller to more simple and modern code style using annotations" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: entire controller to more simple and modern code style using annotations" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
